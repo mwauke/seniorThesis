@@ -7,7 +7,7 @@
 **II.** Extract the first three(?) words of scholia on lines with critical signs, excluding the lemmata.
 
   A. Categorize different ways in which these scholia begin (το σημειον, ὅτι Ζηνόδοτος, etc)
-  B. Are there certain patterns of language that correspond to specific critical signs?
+  B. Are there certain patterns of language that correspond to specific critical signs or types of scholia?
   
 **III.** Determing if a scholion which has ὅτι in the middle of the comment should be considered a ὅτι scholion. If so, the method for identifying a ὅτι scholion must be modified.
 
