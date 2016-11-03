@@ -1,11 +1,24 @@
 unit of classification: individual scholion
 
 Features to identify:
-presence of a critical sign on the line
-- presence of diple
-- presence of a dotted diple
-- presence of an asteriskos
-- presence of an obeloi
-presence of a critical sign on the scholion
+presence of a critical sign on the line and on the scholion
+- diple
+- dotted diple
+- asteriskos
+- obelos
+
 placement of the scholion on the page
+- main
+- interior
+- intermarginal
+- interlinear
+- exterior
+
 presence of a ὅτι scholion
+- the first word of the scholion is ὅτι 
+- one of the first three words is ὅτι 
+
+presence of a proper name in the scholion
+- Aristarchus
+- Zenodotus
+- Aristophanes
