@@ -28,7 +28,10 @@ Presence of a proper name in the scholion, such as editors: will help me classif
 - Aristophanes
 - Homer? (would possibly be interesting to see when he is referenced. Also, perhaps the adjective ὁμηρκός)
 
-Presence of a quotation: will be interesting to see co-occurrences with editors' names and possibly critical signs
+Presence of a quotation: will be interesting to see co-occurrences with editors' names and possibly critical signs. 
+- quotation from elsewhere in the Iliad 
+- quotation from the Odyssey
+- quotation from a non-Homeric work
 
 
 Representing thousands of scholia as a set of features that they do or do not contain will make analysis simpler, as I will be able to extract scholia which have the specific features I want to investigate. For example, if I want to examine the scholia which mention Zenodotus but do not have a dotted diple, the binary identification of these features will make this easy. 
