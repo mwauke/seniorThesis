@@ -1,6 +1,7 @@
 unit of classification: individual scholion
 
 Features to identify:
+
 presence of a critical sign on the line and on the scholion: will be interesting to see co-occurrences with other features, such as editors' names. Additionally, interesting to see when both the line and scholion have a mark, or one but not the other.
 - diple
 - dotted diple
