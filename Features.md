@@ -22,7 +22,7 @@ Presence of a ὅτι scholion: will help me analyze this specific formula and s
 - one of the first three(?) words is ὅτι (will include scholia that begin ἡ διπλη ὅτι, etc., but will also include some false positives)
 
 
-Presence of a proper name in the scholion, such as editors:
+Presence of a proper name in the scholion, such as editors: will help me classify what type of comments appear in scholia which reference different editors. 
 - Aristarchus
 - Zenodotus
 - Aristophanes
