@@ -131,5 +131,24 @@ Just like with the 13-topic topic model, there were several that had a few relat
 
 Of all the topic models we have run, the 15-topic topic model has produced the best results. We could not put an exact label on every topic, but it was on the whole the most clear. It had just as many clear topics as 18, with less junk. 
 
+Out of curiosity, we decided to see what would happen if we modified our stopword list so that it contained every Byzantine orthographic equivalent. We ran a 15-topic topic model with 2000 iterations using this new stopword list. These are the results:
+
+Topic 1: Zeus and other gods, geneology
+Topic 2: Accentuation 
+Topic 3: Hero topic (Agamemnon, Odysseus, Achilles, Phoenix), quickly, god, αλλος, poet, ancient
+Topic 4: Athetesis, arrangement, lines, conjunction, false, better
+Topic 5: More grammar, talking about individual words (similar, preposition, pronoun, conjunction, Ascalonites, case, enclitic)
+Topic 6: Editors (γραφω, Zenodotus, Aristarchus, Aristophanes, χωρις, διχως, αθετεω)
+Topic 7: Troy and battle (Patroclus, Paris, Sarpedon, war, fight, Pandarus, Ida)
+Topic 8: Setting + Odyssey (Gaia, earth, heaven, cloud, water, air, light, road, Odyssey) 
+Topic 9: Perception (ψυχη, λυπεω, λυπη, θυμος, καρ κεφαλη, δηλοω, νομιζω, θυμοω), with some other less related words (house, black, Helen, seven)
+Topic 10: Weird mix of grammar and Iliad (ship, διασταλτεον, ταφρος, βραχυς, τειχος)
+Topic 11: Unclear topic (Plain, fleeing, fear, wall, horse, Troy, city, but also νεωτερος appears almost entirely in this topic)
+Topic 12: Even more grammar, but also unrelated words (Breathings, Odyssey, peplos, negation, Arrow)
+Topic 13: Perhaps comments on similes? Not too clear though. lots of nature. (δοκεω, φυσις, φυω, κυων, αλεξω). 
+Topic 14: Junk, probably. (Epithets, δει, κυριως, meet, persuade, first, second, names) 
+Topic 15: Weapons and shouting (shield, spear, honor, sword, gold, helmet, bronze)
+
+Thoughts: 1-7 are fine, 8 and 9 are murky. 15 is good. Compared to the first 15-topic topic model we ran, this analysis is less valuable. There is only one editors topic here, as opposed to the three distinct editors topics in the previous topic model we ran. 
 
 
