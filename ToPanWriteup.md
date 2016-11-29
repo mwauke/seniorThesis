@@ -89,4 +89,47 @@ Of the 15 topics, topics 1,2,4,6,9,11,12,13,14,15 were fairly clear in their dis
 
 However, topics 3,5,7,8, and 10 were not. So while we gained three more topics over what we had in the 10-topic topic model, perhaps we are beginning to spread things too thin? We will try again at both 13 and 18 topics.
 
+With the k-value set to 13, we ran a topic model and got the following topics:
+
+Topic 1: Accents, with Ascalonites and Aristarchus
+Topic 2: Family, geneology, birth-words, gods (Zeus, Apollo, Heracles), pol-root words, and Ilium words.
+Topic 3: θε-root words, no real clear uniting factor. Looks a little more like a topic with the lambda set to 0.4: day, sit, watch, home-related words, δόξα. Still not very coherent.
+Topic 4: Punctuation
+Topic 5: Again, set λ to 0.4: Ares, battle-words, opposition/arguing over the text words (ἀθετέω, ἀντιόομαι, ψεῦδος,) 
+Topic 6: Odyssey, heroes (Patroclus, Nestor, Paris), τιμη, emotions/seat of emotions (θυμος, ψυχη, στηθος)
+Topic 7: χράω, υστερον-προτερον, best, Phoenix, Ajax (Iliad 9 scholia?), again, not the clearest topic
+Topic 8: γραφω, Zenodotus, Aristophanes, Aristarchus, γραφεται, athetesis, siege vocab (tower, missile, stone, wood)?
+Topic 9: Scenery/back-drop words (earth, wind, water, fire), Olympus, height, sacrifice, hollow, sea
+Topic 10: Another grammar topic, focusing on verbs and breathing (tense, aorist, imperative, negation), function words
+Topic 11: Battle words, particularly quick battle (swift, shield, sword, arrow, blood, body), and metaphor?
+Topic 12: Ships and sailing, epithets, shouting
+Topic 13: Aristarchus! αλλος, χωρις, διχως, Also, plain and wall?
+
+Overall, this one was the most disappointing of the topic models we have run. Clear topics include 1,4,9,10,11,12(?),13. There were several topics that had some clear parts, but then also seemingly unrelated words. For example, in topic 8, there was a clear grammatical/editors part, but then the siege vocabulary. Then there were topics like topic three, which had no clear pattern at all. Topic five is potentially promising, but we have not seen any topic like it before. 
+
+Topic 1: general grammar: smooth breathing, similar, enclitics, parts of speech, pronouns, syntactical arrangement
+Topic 2: Grammar, but more specifically accentuation: syllable, ought, accent, name, plural, fem/masc
+Topic 3: City, familial relations (birthing and raising), sacking, ιστορέω
+Topic 4: Gods and sacrifice: Zeus, Gaia, heaven, Olympus, Poseidon, gold, cloud, mother, Hermes, Apollo
+Topic 5: Athetesis and the Odyssey: line, asterisk, Zenodotus, Hector, order, Paris, βουλη
+Topic 6: punctuation
+Topic 7: Heroes in battle? Patroclus, best, war, harm, take, destroy, other hero names, also home-words
+Topic 8: δει, χρη, eat ( upon further reflection, εδω is probably actually δει), meet, epithet, first, second, Aristonicus. No clear topic here
+Topic 9: Unclear again: θεαω, hear, νοος, φρην, some grammar words too (πτωσις).
+Topic 10: Note: should add ποτε to stop-words list as it seems to be skewing results. fire, blow, sword, spear, απειλω,. Weapon and pursuit words, mostly.
+Topic 11: Alexandrian editors: Aristarchus, Aristophanes, Zenodotus, others, γραφω, διχως
+Topic 12: Ilium, Phoenix, Ajax, Muses, similarity, courage, victory, soul and heart. Not very clear. 
+Topic 13: Battle scenery: Ship, fight, plain, wall, tower, wood, ditch
+Topic 14: War, flight, dog, lion, fear, εναντιοομαι, manly, foreign, (Possibly simile?)
+Topic 15: note: πλε- seems to be causing confusion. Junk category: την, τον, της, bronze, horse, death, white, Helen, woman
+Topic 16: Ares, day, plain, river, new/newer (νεωτεροι), helmet, sleep. Unclear. 
+Topic 17: Zenodotus by himself: γραφω, ταχύς, αντι, Some unrelated words: πεπλος, wine
+Topic 18: βο- causes confusion. Shouting, honor, find
+
+18-topic topic model was better than 13, but still not great. The clear topics were 1-6,11,13,14(?),17
+Just like with the 13-topic topic model, there were several that had a few related words, but with other random words thrown in. There were also some complete junk categories. 
+
+Of all the topic models we have run, the 15-topic topic model has produced the best results. We could not put an exact label on every topic, but it was on the whole the most clear. It had just as many clear topics as 18, with less junk. 
+
+
 
