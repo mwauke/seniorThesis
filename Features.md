@@ -35,3 +35,9 @@ Presence of a quotation: will be interesting to see co-occurrences with editors'
 
 
 Representing thousands of scholia as a set of features that they do or do not contain will make analysis simpler, as I will be able to extract scholia which have the specific features I want to investigate. For example, if I want to examine the scholia which mention Zenodotus but do not have a dotted diple, the binary identification of these features will make this easy. 
+
+---
+
+- check if line has a critical sign
+- check if line contains reference to an editor
+- sort by reference to editor
