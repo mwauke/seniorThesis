@@ -1,7 +1,7 @@
 
 
 
-##Introduction and Background on Homer and the Venetus A
+##Introduction and Background 
 
 This thesis concerns the tenth-century Venetus A manuscript, the oldest complete manuscript of the *Iliad*. It contains not only the text of the poem, but scholarly commentary, or scholia, as well. These scholia surround the Iliadic text and provide notes on subjects such as grammar and mythology. However, before delving into the people and works referenced in the scholia, the larger questions of this thesis, we need to introduce some background on the Venetus A and Homeric epics.
 
