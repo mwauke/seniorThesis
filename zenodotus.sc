@@ -1,9 +1,9 @@
 import scala.io.Source
 
-@main
+
 def dottedDipleZenodotus (scholiaType: String) {
 
-val scholiaType = "msAim"
+//val scholiaType = "msAim"
 val corpus = CorpusSource.fromFile("data/hmt_2cols.tsv")
 val scholia = corpus ~~ CtsUrn("urn:cts:greekLit:tlg5026." + scholiaType + ":")
 
@@ -13,10 +13,11 @@ val tokens = TeiReader.fromCorpus(scholia)
 val zenodotus = Cite2Urn("urn:cite2:hmt:pers:pers15")
 val zenodotusTokens = tokens.filter(_.lexMatch(zenodotus))
 val zenodotusScholia = zenodotusTokens.map(_.textNode).map(_.collapseBy(1).toString)
+val distinctZenScholia = zenodotusScholia.distinct
 
 // get alignment of scholia to Iliad lines
 val scholiaToIliad = Source.fromFile("/Users/oxygen/Desktop/hmt-twiddle/data/scholiaToIliad.tsv").getLines.toVector.map(_.split("\t"))
-val zenodotusLines = zenodotusScholia.map(matchingLines(_,scholiaToIliad).flatten.toArray)
+val zenodotusLines = distinctZenScholia.map(matchingLines(_,scholiaToIliad).flatten.toArray)
 
 val zenCts = zenodotusLines.map( t => CtsUrn(t(1)))
 val ddiple = Cite2Urn("urn:cite2:hmt:critsign:dotteddiple")

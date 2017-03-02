@@ -15,10 +15,11 @@ val tokens = TeiReader.fromCorpus(scholia)
 val editor = Cite2Urn("urn:cite2:hmt:pers:pers" + editorURN)
 val editorTokens = tokens.filter(_.lexMatch(editor))
 val editorScholia = editorTokens.map(_.textNode).map(_.collapseBy(1).toString)
+val distinctScholia = editorScholia.distinct
 
 // get alignment of scholia to Iliad lines
 val scholiaToIliad = Source.fromFile("/Users/oxygen/Desktop/hmt-twiddle/data/scholiaToIliad.tsv").getLines.toVector.map(_.split("\t"))
-val editorLines = editorScholia.map(matchingLines(_,scholiaToIliad).flatten.toArray)
+val editorLines = distinctScholia.map(matchingLines(_,scholiaToIliad).flatten.toArray)
 
 val editorCts = editorLines.map( t => CtsUrn(t(1)))
 val criticalSign = Cite2Urn("urn:cite2:hmt:critsign:" + signType)
