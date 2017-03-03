@@ -7,3 +7,4 @@ urn:cts:greekLit:tlg5026.msA.hmt:1.1037 | urn:cts:greekLit:tlg0012.tlg001.msA:1.
 urn:cts:greekLit:tlg5026.msA.hmt:10.4635 | urn:cts:greekLit:tlg0012.tlg001.msA:10.543
 urn:cts:greekLit:tlg5026.msA.hmt:11.159 | urn:cts:greekLit:tlg0012.tlg001.msA:11.413
 
+None of these scholia has lemmata. Instead, they are all commenting on the same line as the previous scholion above them. 
