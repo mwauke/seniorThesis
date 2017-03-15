@@ -20,10 +20,12 @@
 
 11. in Zenodotus, “πῶυ μεγ οιων” [line has πώεα καλὰ] (18.528)
 
-12. in Zenodotus, “Αριηδνι” [line has Αριαδνῃ] (18.592)
+12. "ἐς αυτην," in Zenodotus, and this writing has sense. (18.565)
 
-13. in Zenodotus, “κρατερον” with the “ο” [line has κρατερήν] (18.477)
+13. in Zenodotus, “Αριηδνι” [line has Αριαδνῃ] (18.592)
 
-14. in Zenodotus, and in most, “ἀποκταμένου.” And this writing is not unlikely. [line has αποφθιμενου] (18.499)
+14. in Zenodotus, “κρατερον” with the “ο” [line has κρατερήν] (18.477)
 
-15. in Zenodotus and Aristophanes, “αυτος,” with the “ο,” in order that he be without his arms.  This writing has an elegant expression and is not unreasonable. [line has αυτως] (18.198)
+15. in Zenodotus, and in most, “ἀποκταμένου.” And this writing is not unlikely. [line has αποφθιμενου] (18.499)
+
+16. in Zenodotus and Aristophanes, “αυτος,” with the “ο,” in order that he be without his arms.  This writing has an elegant expression and is not unreasonable. [line has αυτως] (18.198)
