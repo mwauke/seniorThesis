@@ -1,7 +1,7 @@
-Scholia Type, # of Scholia, # of Aristophanes Scholia
-Main, 3607, 96
-Intermarginal, 1223, 9
-Interior, 823, 2
-Interlinear, 2076, 3
-Exterior, 240, 1
-Total, 7969, 111
+Scholia Type, # of Scholia, # of Aristophanes Scholia, # of co-occurences with Zenodotus
+Main, 3607, 71, 32
+Intermarginal, 1223, 38, 20
+Interior, 823, 22, 5
+Interlinear, 2076, 1, 1
+Exterior, 240, 0, 0
+Total, 7969, 132, 58
