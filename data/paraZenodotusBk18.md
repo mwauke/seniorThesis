@@ -1,4 +1,4 @@
-1. The chorus of the Nereids is athetized in Zenodotus as having the character of Hesiod.
+1. The chorus of the Nereids is athetized in Zenodotus as having the character of Hesiod (18.39-18.49).
 
 2. in Zenodotus, “ἀγορεῦσαι,” and this appears to be the Homeric usage [line has ἀγορεύσατ’] (18.142)
 
