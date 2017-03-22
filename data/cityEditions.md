@@ -24,3 +24,12 @@
 |urn:cts:greekLit:tlg5026.msA.hmt:19.2015office9_12   | Aristophanes  |
 |urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office9_4   | Aristophanes  |
 |urn:cts:greekLit:tlg5026.msAint.hmt:19.2015office10_3   | --  |
+
+|Argolian scholion URN   | Editors Referenced  |
+|---|---|
+|urn:cts:greekLit:tlg5026.msA.hmt:1.801   | Aristophanes  |
+|urn:cts:greekLit:tlg5026.msA.hmt:1.1448   | Aristarchus, Aristophanes, Zenodotus   |
+|urn:cts:greekLit:tlg5026.msA.hmt:15.24   | Aristophanes  |
+|urn:cts:greekLit:tlg5026.msA.hmt:18.21   | Zenodotus  |
+|urn:cts:greekLit:tlg5026.msA.hmt:1.1123   | --  |
+|urn:cts:greekLit:tlg5026.msA.hmt:3.104   | Aristarchus, Aristophanes, Zenodotus  |
