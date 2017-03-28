@@ -816,5 +816,3 @@ urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_2.comment	true	false	false	"0.00869565
 urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_3.comment	true	false	false	"0.0153846153846154"	"0.0153846153846154"
 urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_4.comment	true	false	false	"0.878260869565217"	"0.00869565217391304"
 urn:cts:greekLit:tlg5026.msAint.hmt:19.hc_5.comment	false	false	false	"0.0153846153846154"	"0.0153846153846154"
-
-scala> 
