@@ -1,5 +1,6 @@
 import scala.io.Source
 :load loadhmt.sc
+:load initial-ngram-histo.sc
 :load ../seniorThesis/scripts/hmt-ngrams-revised.sc
 
 def criticalSignPres (scholion: String) = {
@@ -35,21 +36,19 @@ def criticalSignPres (scholion: String) = {
 
 }
 
+def matchingUrns(scholiaUrn: String, urnList: Vector[String]) = {
+
+  val scholMatch = urnList.filter(_ == scholiaUrn)
+  scholMatch
+
+}
+
 def activeGraph (scholion: String) = {
 
   var activeGraphPresent = false
   val graph = corpus.urnsForNGram("γράφει",1,true)
-  val graphUrn = graph.map(_.collapseBy(1).toString)
-  val commentUrn = scholion.replace(".comment","")
-
-  def matchingUrns(scholiaUrn: String, grafei: Vector[String]) = {
-
-    val scholMatch = grafei.filter(_ == scholiaUrn)
-    scholMatch
-
-  }
-
-  val matchingGrafei = matchingUrns(commentUrn, graphUrn)
+  val graphUrn = graph.map(_.toString)
+  val matchingGrafei = matchingUrns(scholion, graphUrn)
 
   if (matchingGrafei.size > 0) {
     activeGraphPresent = true
@@ -59,52 +58,40 @@ def activeGraph (scholion: String) = {
 
 }
 
-def hotiZenFeature (scholion: String) = {
+def initialHotiSchol(scholion: String) = {
 
-var hotiZenPresent: Boolean = false
-val hotiZen = corpus.urnsForNGram("ὅτι Ζηνόδοτος",2,true)
-val hotiZenUrn = hotiZen.map(_.collapseBy(1).toString)
-val commentUrn = scholion.replace(".comment","")
-
-def matchingUrns(scholiaUrn: String, zenod: Vector[String]) = {
-
- val scholMatch = zenod.filter(_ == scholiaUrn)
- scholMatch
-
+  val initHot = hotiNGrams(scholiaSrc, 1)
+  val hotiScholia = initHot.map(_(0))
+  var initialHotiPresent: Boolean = false
+  val matchingHoti = matchingUrns(scholion, hotiScholia)
+  if (matchingHoti.size > 0) {
+    initialHotiPresent = true
+  }
+  initialHotiPresent
 }
 
-val matchingHotiZen = matchingUrns(commentUrn, hotiZenUrn)
+//def hotiZenFeature (scholion: String) = {
 
-if (matchingHotiZen.size > 0) {
-  hotiZenPresent = true
-}
+//var hotiZenPresent: Boolean = false
+//val hotiZen = corpus.urnsForNGram("ὅτι Ζηνόδοτος",2,true)
+//val hotiZenUrn = hotiZen.map(_.toString)
+//val matchingHotiZen = matchingUrns(scholion, hotiZenUrn)
 
-hotiZenPresent
+//if (matchingHotiZen.size > 0) {
+  //hotiZenPresent = true
+//}
 
-}
+//hotiZenPresent
 
-def nineToPanScore (scholion: String) = {
+//}
 
-val fileName = "../seniorThesis/data/theta.csv"
-val theta = Source.fromFile(fileName).getLines.toVector
-val thetaSplit = theta.map(_.split(","))
-val scoresList = thetaSplit.filter(_(1).contains(scholion)).flatten.toVector
-val topic9Score = scoresList(11)
-topic9Score
-
-}
-
-def sixToPanScore (scholion: String) = {
-
-val fileName = "../seniorThesis/data/theta.csv"
-val theta = Source.fromFile(fileName).getLines.toVector
-val thetaSplit = theta.map(_.split(","))
-val scoresList = thetaSplit.filter(_(1).contains(scholion)).flatten.toVector
-val topic6Score = scoresList(8)
-topic6Score
-
-}
 
 def aristarchanFeatures (scholion: String) {
-  println(scholion + "\t" + criticalSignPres(scholion) + "\t" + activeGraph(scholion) + "\t" + hotiZenFeature(scholion) + "\t" + nineToPanScore(scholion) + "\t" + sixToPanScore(scholion))
+  val fileName = "../seniorThesis/data/theta.csv"
+  val theta = Source.fromFile(fileName).getLines.toVector
+  val thetaSplit = theta.map(_.split(","))
+  val scoresList = thetaSplit.filter(_(1).contains(scholion)).flatten.toVector
+  val topic6Score = scoresList(8)
+  val topic9Score = scoresList(11)
+  println(scholion + "\t" + criticalSignPres(scholion) + "\t" + activeGraph(scholion) + "\t" + initialHotiSchol(scholion) + "\t" + topic6Score + "\t" + topic9Score)
 }
