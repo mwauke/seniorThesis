@@ -1,4 +1,12 @@
-Scholia Type, Total, Critical Sign, γράφει, Initial ὅτι, παρα Ζηνοδότῳ, Aristarchus/Post-Aristarchan Name, All Aristarchan Features, Topic 6 > .5, Topic 6 > .9, Topic 9 > .5, Topic 9 > .9
-Main, 3591, 1562, 174, 885, 12, 436, 113, 253, 74, 127, 44
-Intermarginal, 1217, 482, 26, 234, 7, 247, 14, 87, 28, 213, 64
-Interior, 818, 345, 12, 183, 3, 114, 9, 58, 16, 112, 28
+,Main,Intermarginal,Interior
+Total,3591,1217,818
+Critical Sign,1562,482,345
+γράφει,174,26,12
+Initial ὅτι,885,234,183
+παρα Ζηνοδότῳ,12,7,3
+Aristarchus/Post Aristarchan Name,436,247,114
+All Aristarchan Features,113,14,9
+Topic 6 > .5,253,87,58
+Topic 6 > .9,74,28,16
+Topic 9 > .5,127,213,112
+Topic 9 > .944,64,28
