@@ -2,7 +2,12 @@
 This is a pretty crude script, but it does create a DecisionTreeClassifier from
 the data in https://raw.githubusercontent.com/mwauke/seniorThesis/master/data/featureAnalysisSample.csv
 
-The main work is done by a case class that
+The main work is done by a case class that defines the features used
+in a machine learning model, and creates to values we can use in Spark ML
+algorithms:  a *label* (Double), and a *features* vector.
+
+The dataframe that is created using this case class can then be used in
+generic Spark ML pipelines.
 
 */
 val url = "https://raw.githubusercontent.com/mwauke/seniorThesis/master/data/featureAnalysisSample.csv"
