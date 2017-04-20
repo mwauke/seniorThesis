@@ -64,7 +64,7 @@ post-Aristarchan Features
 Features Across Three Zones
 
 ||Main|Intermarginal|Interior|
-|:----|:------------|:-------|
+|---|:----|:------------|:-------|
 |Total|3591|1217|818|
 |Critical Sign|1562|482|345|
 |γράφει|174|26|12|
