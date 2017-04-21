@@ -25,7 +25,7 @@ Folio 181 recto
 ## Sources for the Venetus A scholia
 
 - Limited information on source material
-- Manuscript cites four specific sources
+- Manuscript cites four specific sources from 1st and 2nd centuries C.E.
 - Alexandrian editors' editions no longer extant at time of manuscript construction
 
 ---
