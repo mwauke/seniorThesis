@@ -117,10 +117,12 @@ Folio 181 recto
 
 ## Conclusions
 
+- Analyze scholia as a collection of various features
 - Main scholia contain the majority of Aristarchan and post-Aristarchan language
 - Intermarginal and Interior scholia contain more Aristarchan paraphrases
-- Zones are *not* the best indicator of language-type
+- Zones are *not* the best feature for indicating language-type
 - Working Aristarchan identifier
+  - Possible to recover material directly from Aristarchus' editions (2nd century BCE)
 
 ---
 
