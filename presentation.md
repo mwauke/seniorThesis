@@ -1,4 +1,4 @@
-# Alexandrian Editors and the scholia of the Venetus A
+# Alexandrian editors and the scholia of the Venetus A
 
 Melody Wauke
 
