@@ -6,7 +6,7 @@ Adviser: Professor Neel Smith, Classics Dept.
 
 ---
 
-## Venetus A Manuscript (Marcianus Gr. Z. 454)
+## Venetus A manuscript (Marcianus Gr. Z. 454)
 
 Folio 181 recto
 
@@ -14,7 +14,7 @@ Folio 181 recto
 
 ---
 
-## The *Iliad*: Oral and Written Transmission
+## The *Iliad*: oral and written transmission
 
 - Orally composed and transmitted, 2nd millennium B.C.E.
 - Written editions emerge, mid-1st millennium B.C.E.
@@ -32,14 +32,14 @@ Folio 181 recto
 
 ---
 
-## Recovering Aristarchan Material
+## Recovering Aristarchan material
 
 - Identify cluster of features which suggest source (Aristarchan, post-Aristarchan)
 - create a model for identifying Aristarchan scholia
 
 ---
 
-## The Data Set
+## The data set
 
 - 18 books of scholia (~8000) from Homer Multitext's digital editions
   - includes personal name identifiers
@@ -47,9 +47,10 @@ Folio 181 recto
 
 ---
 
-## Significance of Critical Signs and corresponding scholia
+## Significance of critical signs and corresponding scholia
 
 - Critical Signs come from Aristarchus' editions [get pic]
+! [Critical Signs](https://github.com/mwauke/seniorThesis/blob/master/Screen%20Shot%202017-04-21%20at%201.06.04%20AM.png)
 - Explanatory scholia (ὅτι...) transmitted with signs are also Aristarchan
 - Only Zenodotus writes (ζηνόδοτος γράφει...)
 
