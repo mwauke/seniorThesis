@@ -14,8 +14,13 @@ Folio 181 recto
 
 ---
 
-Transmission of Iliad
-Alexandrian Editors
+## The *Iliad*: Oral and Written Transmission
+
+- Orally composed and transmitted, 2nd millennium B.C.E.
+- Written editions emerge, mid-1st millennium B.C.E.
+- Editors at the Library of Alexandria, 3rd and 2nd centuries B.C.E
+- Venetus A, 10th century C.E.
+
 Sources for the scholia
 
 ---
