@@ -19,6 +19,8 @@ Folio 181 recto
 - Orally composed and transmitted, 2nd millennium B.C.E.
 - Written editions emerge, mid-1st millennium B.C.E.
 - Editors at the Library of Alexandria, 3rd and 2nd centuries B.C.E
+  - Zenodotus
+  - Aristarchus 
 - Venetus A, 10th century C.E.
 
 ---
@@ -47,7 +49,7 @@ Folio 181 recto
 
 ## Significance of Critical Signs and corresponding scholia
 
-- Critical Signs come from Aristarchus' editions
+- Critical Signs come from Aristarchus' editions [get pic]
 - Explanatory scholia (ὅτι...) transmitted with signs are also Aristarchan
 - Only Zenodotus writes (ζηνόδοτος γράφει...)
 
@@ -56,7 +58,7 @@ Folio 181 recto
 ## Topic Modeling
 
 - Recurring patterns of co-occurring words
-- Topic modeling scores range 0-1
+- User provides human-readable labels
 ---
 
 ## Significant Topics for Analysis
@@ -70,6 +72,12 @@ Folio 181 recto
 ### Topic 9: Language used when discussing Aristarchus
 
 ![Topic 9](https://github.com/mwauke/seniorThesis/blob/master/Topic09.png)
+
+---
+
+## Topic Modeling Scores
+
+- Each scholion has a score for each topic, ranging 0-1
 
 ---
 
@@ -94,14 +102,14 @@ Folio 181 recto
 
 ||Main|Intermarginal|Interior|
 |---|:----|:------------|:-------|
-|Total|3591|1217|818|
+|Total # of scholia|3591|1217|818|
 |Critical Sign|1562|482|345|
 |γράφει|174|26|12|
 |Initial ὅτι|885|234|183|
 |παρα Ζηνοδότῳ|12|7|3|
-|Aristarchus|272|236|105|
-|Post Aristarchan Name|238|14|12|
-|All Aristarchan Features|113|14|9|
+|Aristarchus|272|236|105| 
+|Post Aristarchan Name|238|14|12| 
+|All Aristarchan Features|113|14|9| 
 |Topic 6 > .5|253|87|58|
 |Topic 6 > .9|74|28|16|
 |Topic 9 > .5|127|213|112|
