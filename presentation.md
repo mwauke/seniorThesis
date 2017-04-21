@@ -42,7 +42,14 @@ Folio 181 recto
 - 18 books of scholia (~8000) from Homer Multitext's digital editions
   - includes personal name identifiers
 - index of all critical signs 
-- Topic modeling results
+
+---
+
+## Significance of Critical Signs and corresponding scholia
+
+- Critical Signs come from Aristarchus' editions
+- Explanatory scholia (ὅτι...) transmitted with signs are also Aristarchan
+- Only Zenodotus writes (ζηνόδοτος γράφει...)
 
 ---
 
