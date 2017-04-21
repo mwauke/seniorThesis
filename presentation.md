@@ -73,15 +73,15 @@ Folio 181 recto
 
 ---
 
-## Aristarchan Features
+## Features for Analysis
 
+### Aristarchan Features 
 - Critical sign
 - γράφει 
 - Initial ὅτι 
 - Higher topic 6 score
----
 
-## Post-Aristarchan Features
+### Post-Aristarchan Features
 
 - παρα Ζηνοδότῳ 
 - Aristarchus' name
