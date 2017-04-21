@@ -49,8 +49,8 @@ Folio 181 recto
 
 ## Significance of critical signs and corresponding scholia
 
-- Critical Signs come from Aristarchus' editions [get pic]
-! [Critical Signs](https://github.com/mwauke/seniorThesis/blob/master/Screen%20Shot%202017-04-21%20at%201.06.04%20AM.png)
+- Critical Signs come from Aristarchus' editions
+![Critical Signs](https://github.com/mwauke/seniorThesis/blob/master/Screen%20Shot%202017-04-21%20at%201.06.04%20AM.png)
 - Explanatory scholia (ὅτι...) transmitted with signs are also Aristarchan
 - Only Zenodotus writes (ζηνόδοτος γράφει...)
 
