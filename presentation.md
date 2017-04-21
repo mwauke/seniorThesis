@@ -6,7 +6,7 @@ Advisor: Professor Neel Smith, Classics Dept.
 
 ---
 
-##Venetus A Manuscript (Marcianus Gr. Z. 454)
+## Venetus A Manuscript (Marcianus Gr. Z. 454)
 
 Folio 181 recto
 
