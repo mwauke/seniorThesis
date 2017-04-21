@@ -56,15 +56,15 @@ Folio 181 recto
 
 ---
 
-## Topic Modeling
+## LDA Topic modeling
 
 - Recurring patterns of co-occurring words
 - User provides human-readable labels
 ---
 
-## Significant Topics for Analysis
+## Significant topics for analysis
 
-### Topic 6: Aristarchan Language 
+### Topic 6: Aristarchan language 
 
 ![Topic 6](https://github.com/mwauke/seniorThesis/blob/master/Topic06.png)
 
@@ -76,30 +76,30 @@ Folio 181 recto
 
 ---
 
-## Topic Modeling Scores
+## Topic modeling scores
 
 - Each scholion has a score for each topic, ranging 0-1
 
 ---
 
-## Features for Analysis
+## Features for analysis
 
-### Aristarchan Features 
+### Aristarchan features 
 - Critical sign
 - γράφει 
 - Initial ὅτι 
 - Higher topic 6 score
 
-### Post-Aristarchan Features
+### Post-Aristarchan features
 
-- παρα Ζηνοδότῳ 
+- παρὰ Ζηνοδότῳ 
 - Aristarchus' name
 - Post-Aristarchan name
 - Higher topic 9 score
 
 ---
 
-## Features Across Three Zones
+## Features across three zones
 
 ||Main|Intermarginal|Interior|
 |---|:----|:------------|:-------|
@@ -118,7 +118,7 @@ Folio 181 recto
 
 ---
 
-## Manual Labeling on a random sample of 100 scholia
+## Manual labeling on a random sample of 100 scholia
 
 - Aristarchan
 - Aristarchan paraphrase
@@ -147,5 +147,5 @@ Folio 181 recto
 - Professor Neel Smith, adviser
 - Charlie Schufreider '17, collaborator
 - Claude Hanley '18, research partner
-- Professor Thomas Köntges, developer of ToPan
-- Department of Classics
+- Professor Thomas Köntges, developer of ToPan Topic modeling software
+- Holy Cross Department of Classics
