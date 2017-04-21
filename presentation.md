@@ -42,7 +42,7 @@ Folio 181 recto
 - 18 books of scholia (~8000) from Homer Multitext's digital editions
   - includes personal name identifiers
 - index of all critical signs 
-- Topic modeling scores
+- Topic modeling results
 
 ---
 
@@ -66,23 +66,24 @@ Folio 181 recto
 
 ---
 
-Aristarchan Features
+## Aristarchan Features
 
 - Critical sign
 - γράφει 
 - Initial ὅτι 
-- High topic 6 score
+- Higher topic 6 score
 ---
 
-post-Aristarchan Features
+## Post-Aristarchan Features
 
 - παρα Ζηνοδότῳ 
-- Aristarchus
+- Aristarchus' name
 - Post-Aristarchan name
-- High topic 9 score
+- Higher topic 9 score
 
 --
-Features Across Three Zones
+
+## Features Across Three Zones
 
 ||Main|Intermarginal|Interior|
 |---|:----|:------------|:-------|
@@ -100,7 +101,8 @@ Features Across Three Zones
 |Topic 9 > .9|44|64|28|
 
 ---
-Manual Labeling on a random sample of 100 scholia
+
+## Manual Labeling on a random sample of 100 scholia
 
 - Aristarchan
 - Aristarchan paraphrase
