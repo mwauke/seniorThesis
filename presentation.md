@@ -2,7 +2,7 @@
 
 Melody Wauke
 
-Advisor: Professor Neel Smith, Classics Dept.
+Adviser: Professor Neel Smith, Classics Dept.
 
 ---
 
@@ -81,7 +81,7 @@ Folio 181 recto
 - Post-Aristarchan name
 - Higher topic 9 score
 
---
+---
 
 ## Features Across Three Zones
 
@@ -110,3 +110,24 @@ Folio 181 recto
 - indeterminate
 
 ---
+
+## Decision Tree using manually labeled training set
+
+---
+
+## Conclusions
+
+- Main scholia contain the majority of Aristarchan and post-Aristarchan language
+- Intermarginal and Interior scholia contain more Aristarchan paraphrases
+- Zones are *not* the best indicator of language-type
+- Working Aristarchan identifier
+
+---
+
+## Acknowledgements 
+
+- Professor Neel Smith, adviser
+- Charlie Schufreider '17, collaborator
+- Claude Hanley '18, research partner
+- Professor Thomas Köntges, developer of ToPan
+- Department of Classics
