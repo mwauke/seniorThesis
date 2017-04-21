@@ -21,36 +21,47 @@ Folio 181 recto
 - Editors at the Library of Alexandria, 3rd and 2nd centuries B.C.E
 - Venetus A, 10th century C.E.
 
-Sources for the scholia
+---
+## Sources for the Venetus A scholia
+
+- Limited information on source material
+- Manuscript cites four specific sources
+- Alexandrian editors' editions no longer extant at time of manuscript construction
 
 ---
 
-Scholia, zones, critical signs
+## Recovering Aristarchan Material
+
+- Identify cluster of features which suggest source (Aristarchan, post-Aristarchan)
+- create a model for identifying Aristarchan scholia
 
 ---
 
-The question: Recover Aristarchan material
+## The Data Set
+
+- 18 books of scholia (~8000) from Homer Multitext's digital editions
+  - includes personal name identifiers
+- index of all critical signs 
+- Topic modeling scores
 
 ---
 
-My data set
+## Topic Modeling
 
-18 books of scholia (~8000) from digital editions of HMT
-important thing marked in data: personal names
+- Recurring patterns of co-occurring words
+- Topic modeling scores range 0-1
+---
+
+## Significant Topics for Analysis
+
+### Topic 6: Aristarchan Language 
+
+![Topic 6](https://github.com/mwauke/seniorThesis/blob/master/Topic06.png)
 
 ---
 
-Topic Modeling
 
-Recurring patterns of co-occurring words
-
-Topic modeling scores range 0-1
----
-Significant Topics for Analysis
-
-Topic 6: Aristarchan Language 
-
-Topic 9: Language used when discussing Aristarchus
+- Topic 9: Language used when discussing Aristarchus
 
 ---
 
