@@ -60,8 +60,9 @@ Folio 181 recto
 
 ---
 
+### Topic 9: Language used when discussing Aristarchus
 
-- Topic 9: Language used when discussing Aristarchus
+![Topic 9](https://github.com/mwauke/seniorThesis/blob/master/Topic09.png)
 
 ---
 
