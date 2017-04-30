@@ -1,7 +1,7 @@
 
 
 
-##Introduction and Background
+## Introduction and Background
 
 This thesis concerns the tenth-century Venetus A manuscript, the oldest complete manuscript of the Iliad. This manuscript is significant both because of its age, as well as because it contains a wealth of scholarly commentary, or scholia which accompany the text of the poem. These scholia surround the Iliadic text and provide notes on subjects such as grammar and mythology. The question which this thesis will address is the source material which was used for the scholia of the Venetus A. 
 
@@ -29,7 +29,7 @@ Throughout the manuscript, there are often symbols written to the left of certai
 
 In the preface to his edition of Homeric scholia, Karl Wilhelm Dindorf explains that these critical signs found in the manuscript are unique to Aristarchus (Nam Aristarchus his solum signis usus erat, Dindorf XIX). That is, Aristarchus himself used these signs in his editions and commentaries (Due 90). As I mentioned above, there are several different types of signs, each with their own meaning: the diple indicates that there is some interesting use of language in the line; the obelos indicates that Aristarchus athetized the line as "unworthy of the poet's splendor" (Wolf 202); the dotted diple indicates that Zenodotus' reading was different from Aristarchus'; the asterisk indicates that the line appears somewhere else as well (Due 92-3). Wolf's explanation of Aristarchus' many atheteses and editorial choices was that his task was not "emending the text to consider what Homer sang, but what he ought to have sung" (Wolf 204).
 
-##The Question
+## The Question
 
 With this background of the Homeric tradition and the Venetus A manuscript completed, we can now return to the larger questions which this thesis will address: the source material for the scholia. The Alexandrian editors’ editions of the Iliad are referenced constantly throughout the scholia in the Venetus A. Aristarchus’ name appears especially frequently in the scholia. His presence in the scholia of this tenth-century manuscript reflects over 1000 years of transmission of his work on Homer. This question, then, intends to trace back over 2000 years in order to reconstruct possibly pure Aristarchan material in the scholia. To be able to label something as Aristarchan, I will examine specific words and patterns of language in the scholia, as well as occurrences of critical signs. My goal in this thesis is not to claim that I have found a magic indicator of what comments come from what editor. However, I intend to identify significant clusterings of features that, when occurring together, suggest from where a scholion does or does not derive. 
 
