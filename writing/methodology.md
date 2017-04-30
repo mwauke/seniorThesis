@@ -1,23 +1,4 @@
-##Theory and Methodology
-
-- Intro to distant reading/ TM? (Jockers)
-- How the data is originally structured (aka XML)
-- Trying to take a text in xml format and analyze it (text only)
-- In order to do this, must extract text
-- Can't work with raw text (inflected language, BYZORTHO)
-- For English, use stemmer; for Greek, use parser
-- methods
-- Tie Back to the beginning with topic modelling / word vector explanation
-
-
-
---------------------
-
-
-
-
-
----------------------
+## Theory and Methodology
 
 Even if the content of this thesis seems to focus strongly on the analysis of computer-generated data, the question which provides the basis for this thesis is one which has perplexed scholars of the Venetus A for centuries. Namely, there has been no consensus on how to interpret the unique five-zoned layout of the Venetus A scholia. As far back as 1875, the prominent Homeric scholar Karl Wilhelm Dindorf made a number of significant conclusions about different aspects of the scholia. In his introduction to his edition of the Venetus A, he concludes that while the intermarginal and main scholia are exceedingly similar in their subject-matter and word choice, they ultimately derive from different sources (vii). However, accordig to modern standards, his introduction lacks enough evidence to support so strong a conclusion. In his whole discussion of the nature of intermarginal and main scholia, he only mentions a handful of examples. In essence, he requires his readers to rely just on his ethos as a scholar. This is not to say that Dindorf's conclusions are incorrect, nor is it fair to say that Dindorf was conducting poor scholarship. It may be exceedingly possible that Dindorf had a wealth of examples to support his conclusion, but a print format prevented Dindorf from filling his introduction with too many examples.
 
@@ -49,4 +30,4 @@ If every word of the original of the text were able to be successfully parsed by
 
 Currently, though, there is no way to effectively account for these orthographic variants in our analysis. There is a comprehensive collection of every Byzantine orthographic variant that the Homer Multitext project has encountered, but this has not yet been incorporated into this analysis. There is currently a script being developed which will resolve these orthographic variants into a normalized form, but this was not ready at the time of writing. Hopefully, future work from the Homer Multitext project will fix this problem, but in the interest of time it was deemed better to have imperfect data rather than no data. So while an edition of the text where all of the Byzantine orthographic equivalents are replaced with their normalized forms would be ideal, such an edition is actually not necessary for topic modelling. Despite the presence of these variants, topic models that were run using this messy dataset still produced intelligible and meaningful results.
 
-After this lengthy process of text wrangling, at last there exists an edition of the text which is able to be analyzed through macroanalysis. That distant-reading which Matthew Jockers describes at length in his book can finally be applied to the scholia. The next chapter will detail the specific methods within macroanalysis that were employed to elucidate hidden patterns of language within the scholia. The hope is that topic models and embedded word-vectors will shed light upon that question which began this chapter concerning the relationship between a scholion's content and its placement on the manuscript page. The point to take away from this chapter is that digital corpora are often very messy and it is difficult to prepare them so that they can be sufficiently analyzed. At least for this thesis, an entire semester was spent writing and debugging scala scripts in order to create a usable text for analysis. Even then, there is still more work to be done in order to make the data as clean as possible. For it is a fact that cleaner data will at the very least produce results of greater significance. So although it may seem like a hassle, this data preparation is the most important step in any digital humanities work.
+After this lengthy process of text wrangling, at last there exists an edition of the text which is able to be analyzed through macroanalysis. That distant-reading which Matthew Jockers describes at length in his book can finally be applied to the scholia. The next chapter will detail the specific methods within macroanalysis that were employed to elucidate hidden patterns of language within the scholia. The hope is that topic models will shed light upon that question which began this chapter concerning the relationship between a scholion's content and its placement on the manuscript page. The point to take away from this chapter is that digital corpora are often very messy and it is difficult to prepare them so that they can be sufficiently analyzed. At least for this thesis, an entire semester was spent writing and debugging scala scripts in order to create a usable text for analysis. Even then, there is still more work to be done in order to make the data as clean as possible. For it is a fact that cleaner data will at the very least produce results of greater significance. So although it may seem like a hassle, this data preparation is the most important step in any digital humanities work.
