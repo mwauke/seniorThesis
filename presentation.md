@@ -1,4 +1,4 @@
-# Alexandrian editors and the scholia of the Venetus A
+## Alexandrian editors and the scholia of the Venetus A
 
 Melody Wauke
 
@@ -19,11 +19,12 @@ Folio 181 recto
 - Orally composed and transmitted, 2nd millennium B.C.E.
 - Written editions emerge, mid-1st millennium B.C.E.
 - Editors at the Library of Alexandria, 3rd and 2nd centuries B.C.E
-  - Zenodotus
-  - Aristarchus
+    - Zenodotus
+    - Aristarchus
 - Venetus A, 10th century C.E.
 
 ---
+
 ## Sources for the Venetus A scholia
 
 - Limited information on source material
@@ -35,7 +36,7 @@ Folio 181 recto
 ## Recovering Aristarchan material
 
 - Identify cluster of features which suggest source (Aristarchan, post-Aristarchan)
-- create a model for identifying Aristarchan scholia
+- Create a model for identifying Aristarchan scholia
 
 ---
 
@@ -67,6 +68,9 @@ Folio 181 recto
 ---
 
 ## Significant topics for analysis
+
+---
+
 
 ### Topic 6: Aristarchan language
 
@@ -126,7 +130,8 @@ Folio 181 recto
 
 ## Decision tree model trained from manually labeled set
 
-DecisionTreeClassificationModel depth 5 with 25 nodes
+- 5 levels deep
+- 25 nodes
 
 ----
 
@@ -152,26 +157,50 @@ DecisionTreeClassificationModel depth 5 with 25 nodes
 
 ----
 
+
+## Experimenting with the feature set
+
+- including zone of scholion *lowered* success rate
+
+---
+
+
+
 ## Applying the model
 
 - evaluate model: success against training set (up to 90%)
-- apply to reamining 7900+ scholia:
+- can then apply to remaining 7900+ scholia
 
-how many of each class?
+
+---
+
+
+## Results
+
 
 - Main scholia contain the majority of Aristarchan and post-Aristarchan language
 - Intermarginal and Interior scholia contain more Aristarchan paraphrases
-- Zones are *not* the best feature for indicating language-type
+- Zones are *not* the best feature for indicating source
 
 ---
+
+## Future directions
+
+- expand training set
+- apply to expanded edition of Venetus A
+- try alternate machine learning algorithms
+- content analysis of automatically identified classes?
+
+---
+
 
 ## Conclusions
 
 - Analyze scholia as a collection of various features
-- Working Aristarchan identifier
-  - Possible to recover material directly from Aristarchus' editions (2nd century BCE)
+- Working Aristarchan identifier:
+    - Possible to recover material directly from Aristarchus' editions (2nd century BCE)
 
---> Identifying A'n material on a large scale; showing *connection* to layout by zone;  your features predict A'n material better than zone they belong to
+
 
 ---
 
